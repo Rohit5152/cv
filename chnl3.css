@@ -1,0 +1,107 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+    margin:0px;
+    background-color: #eee;
+    height: auto;
+}
+h1{
+    font-weight: 400;
+    font-size: 2.3rem;
+    margin: 0px;
+}
+h2{
+    font-size: 1.2rem;
+    font-weight: 400;
+    margin: 0px;
+}
+#landing{
+    background-color: #fff;
+}
+#land-text{
+    display: flex;
+    flex: 0 1 40vw;
+    justify-content: center;
+    align-items: center;
+    height: 40vh;
+    text-align: center;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+#land-text p{
+    color:#888;
+}
+#landing-image{
+    background-image: url('https://images.unsplash.com/photo-1620450777398-59d672733770?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=564&q=80');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 50vh;
+    margin: 0;
+    flex: 0 1 60vw;
+}
+.btn{
+    padding: 0.5rem 2rem;
+    margin: 2rem 0 0;
+    border-radius: 50px;
+    display: inline-block;
+    color: #333;
+    text-decoration: none;
+    border: 1px solid #ccc;
+}
+.btn:hover{
+    background-color: #f4f4f4;
+}
+img{
+    display: block;
+    width: 100%;
+}
+main{
+    margin: auto;
+    max-width: 900px;
+    box-shadow: 40px 0px 30px rgba(0,0,0,0.1 ), -30px 0px 40px rgba(0,0,0,0.1 );
+}
+#work{
+    padding: 1.4rem;
+    text-align: center;
+    background: #333;
+    color: #fff;
+}
+ #work h2 {
+border-left: 1px dotted #fff;
+border-right:1px dotted #fff;
+display: inline-block;
+padding-left: 1rem;
+padding-right: 1rem;
+ }
+ .caption{
+     padding: 0.8rem;
+     text-align: center;
+ }
+ footer{
+     text-align: center;
+     padding: 2rem 1rem ;
+     margin: auto;
+     color: #333;
+ }
+ footer h3{
+     font-size: 2rem;
+     margin-bottom: 0;
+ }
+ /*for the screens of destops and laptops*/
+ @media (min-width: 500px) {
+     #landing{
+         display: flex;
+         height: 100%;
+     }
+     #land-text{
+         height: 100vh;
+     }
+     #landing-image{
+         height: 100vh;
+     }
+ }
+ @media(min-width: 700px) {
+     .btn{
+         padding: 1rem 2.9rem;
+     }
+ }
